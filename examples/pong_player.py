@@ -3,7 +3,7 @@ from pygame_player import PyGamePlayer
 
 
 class PongPlayer(PyGamePlayer):
-    def __init__(self, force_game_fps=10, run_real_time=False):
+    def __init__(self, force_game_fps=1, run_real_time=False):
         """
         Example class for playing Pong
         """
